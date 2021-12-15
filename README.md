@@ -18,6 +18,12 @@ $ npx zenn new:article
 $ npx zenn preview
 ```
 
+プレビューの限定 URL を deploy する
+
+```shell
+$ ./preview-deploy.sh
+```
+
 詳細 👇
 
 [📘 How to use](https://zenn.dev/zenn/articles/zenn-cli-guide)

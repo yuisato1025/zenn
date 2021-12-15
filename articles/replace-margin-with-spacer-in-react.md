@@ -3,7 +3,7 @@ title: "【React】余白はmarginではなくSpacerコンポーネントを使�
 emoji: "✨"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["react", "css"]
-published: false
+published: true
 ---
 
 # 概要
@@ -140,6 +140,15 @@ const ComponentB = () => {
 ```
 
 結果、余白とコンポーネントの実体が明確に分離され、コンポーネントが再利用しやすくなりました。
+
+# 補足
+
+余白に規則性がある場合は、サードパーティのコンポーネントなどを使って親側で定義することもできるようです。同じ Spacer が複数書かれている場合は、置き換えが可能か確認してみましょう。
+
+https://chakra-ui.com/docs/layout/stack#usage
+
+![stack image](/images/stack.png)
+_spacing で余白を均等に定義している_
 
 # まとめ
 
